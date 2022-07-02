@@ -1,0 +1,14 @@
+.item-list{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.item-list li{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
