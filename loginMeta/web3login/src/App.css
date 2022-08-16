@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  background-color: rgba(14, 14, 52, 0.831);
+}
+
+.connectBtn{
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(90deg,
+                    rgba(25, 136, 247, 1) 0%,
+                    rgba(83, 193, 110, 1) 49%,
+                    rgba(247, 25, 136, 1) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 10;
+}
+
+.connectMeta{
+  border: none;
+  padding: 10px 15px 10px 15px;
+  margin: 30px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.connectMeta:hover{
+  transform: scale(0.98);
+  background-color: beige;
+}
+
+.hide{
+  opacity: 0;
+}
+
+.balanceDisplay{
+  margin-top: 50px ;
+  position: absolute;
+  min-height: 200px;
+  width: 900px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(162, 162, 162, 0.459);
+  border-radius: 5px;
+  box-shadow: 2px 7px 13px 8px rgba(98, 96, 96, 0.1);
+}
+
+.form-control{
+  display: flex;
+  justify-content: center;
+}
+
+.form-group{
+  margin-bottom: 10px ;
+}
+
+.text-input{
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  background-color: lightcyan;
+  outline: none;
+  flex:  1 0 auto;
+  border: transparent;
+}
+
+.submit-btn{
+  background-color: rgba(14, 14, 52, 0.831);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  border: transparent;
+  font-size: 1.2rem;
+}
+
+.submit-btn:active{
+  transform: scale(0.98);
+  background-color: rgba(14, 14, 52, 0.477)
+}
+.all-list{
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
+  
+}
+
+.list-account{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 1rem; 
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.console{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.each-balance{
+  margin-right: 130px;
+}
+
+.btn{
+  padding: 5px;
+  margin: 15px;
+  font-size: 1.2rem;
+  background-color: rgba(74, 41, 96, 0.531);
+  color: #000;
+  font-weight: 600;
+  border: transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+
+.deposit, .withdraw, .transfer{
+  display: none;
+}
+
+.show-deposit, .show-withdraw, .show-transfer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.input-console{
+  background-color: lightcyan;
+  outline: none;
+  border: transparent;
+  height: 30px;
+  border: solid rgba(162, 162, 162, 0.459);
+  width: 200px;
+  font-size: 1rem;
+}
+
+
+.btn-use{
+  background-color: rgba(162, 162, 162, 0.459);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.close{
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  background-color: rgba(14, 14, 52, 0.831);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.btn-use:active{
+  transform: scale(0.98);
+  background-color: rgba(111, 111, 111, 0.459);
+}
+
+.close:active{
+  transform: scale(0.98);
+  background-color: rgba(14, 14, 52, 0.477)
+}
